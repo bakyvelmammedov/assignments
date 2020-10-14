@@ -13,11 +13,11 @@ public class Question3 {
 	public static void specialEleven(int i) {
 		
 		if(i==11 || i%11==0) {
-			System.out.println("true");
+			System.out.println(true);
 		}else if((i-1)%11==0) {
-			System.out.println("true");
+			System.out.println(true);
 		}else {
-			System.out.println("false");
+			System.out.println(false);
 		}
 		
 	}
