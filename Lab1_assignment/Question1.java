@@ -10,18 +10,14 @@ public class Question1 {
 
 	}
 
-	public static void stringTimes(String hi, int num) {
+	public static void stringTimes(String word, int copies) {
 		
-		if(num==1) {
-			System.out.println("Hi");
-		}else if(num==2) {
-			System.out.println("HiHi");
-		}else if(num==3) {
-			System.out.println("HiHiHi");
-		}else {
-			System.out.println("Give number 1 to 3");
+		if(copies>0) {
+			for(int i=1; i<=copies; i++) {
+				System.out.print("Hi");
+			}
+			System.out.println();
 		}
-		
 		
 	}
 
