@@ -13,16 +13,16 @@ public class Question6 {
 	public static void cigarParty(int cigarNumber, boolean isWeekend) {
 		if(isWeekend==false) {
 			if(cigarNumber>=40 && cigarNumber<=90) {
-				System.out.println("true");
+				System.out.println(true);
 			}else {
-				System.out.println("false");
+				System.out.println(false);
 			}
 		}
 		if(isWeekend) {
 			if(cigarNumber>=40) {
-				System.out.println("true");
+				System.out.println(true);
 			}else {
-				System.out.println("false");
+				System.out.println(false);
 			}
 		}
 		
