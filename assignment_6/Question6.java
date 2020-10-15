@@ -4,6 +4,12 @@ public class Question6 {
 
 	public static void main(String[] args) {
 		
+		/**
+		 * I did with if statement
+		 * I couldn't find other way. 
+		 * If it is have can you explain
+		 */
+		
 		for(int i=1; i<=5; i++) {
 			for(int j=1; j<=i; j++) {
 				if(j==1) {
